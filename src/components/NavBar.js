@@ -7,30 +7,30 @@ const NavBar = () => {
         <nav>
             <ul>
                 <li>
-                    <NavLink to="/">
+                    <NavLink to="/Simple-Pokemon-Page/">
                         <img width="60px" height="auto" className="img-responsive" src={Logo} alt="logo" />
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/pokemon" activeClassName="active">
+                    <NavLink to="/Simple-Pokemon-Page/pokemon" activeClassName="active">
                         Pokemons
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/berry" activeClassName="active">
+                    <NavLink to="/Simple-Pokemon-Page/berry" activeClassName="active">
                         Berries
                     </NavLink>
                 </li>
                 <li>
                     <div className="dropdown">
-                        <NavLink to="admin" activeClassName="active">
+                        <NavLink to="/Simple-Pokemon-Page/admin" activeClassName="active">
                             Admin
                         </NavLink>
                         <div className="dropdown-content">
-                            <NavLink to="admin/pokemon-admin" activeClassName="active">
+                            <NavLink to="/Simple-Pokemon-Page/admin/pokemon-admin" activeClassName="active">
                                 Pokemon
                             </NavLink>
-                            <NavLink to="admin/berry-admin" activeClassName="active">
+                            <NavLink to="/Simple-Pokemon-Page/admin/berry-admin" activeClassName="active">
                                 Berry
                             </NavLink>
                         </div>
