@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import NavBar from './components/NavBar.js';
+import HomePage from './components/HomePage.js';
+import PokemonPage from './components/PokemonPage.js';
+import BerryPage from './components/BerryPage.js';
+import PokemonPageAdmin from './components/PokemonPageAdmin.js'
+import BerryPageAdmin from './components/BerryPageAdmin.js'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      <div className="main">
+        <Routes>
+          <Route exact path="/" element={<HomePage />}></Route>
+          <Route path="/pokemon" element={<PokemonPage />}></Route>
+          <Route path="/berry" element={<BerryPage />}></Route>
+          <Route path="/admin"></Route>
+          <Route path="/admin/pokemon-admin" element={<PokemonPageAdmin />}>
+          </Route>
+          <Route path="/admin/berry-admin" element={<BerryPageAdmin />}>
+          </Route>
+        </Routes>
+      </div>
     </div>
   );
 }
