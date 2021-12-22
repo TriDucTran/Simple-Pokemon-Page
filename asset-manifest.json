@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/Simple-Pokemon-Page/static/css/main.19ae9854.chunk.css",
-    "main.js": "/Simple-Pokemon-Page/static/js/main.c3129861.chunk.js",
-    "main.js.map": "/Simple-Pokemon-Page/static/js/main.c3129861.chunk.js.map",
+    "main.js": "/Simple-Pokemon-Page/static/js/main.547d6774.chunk.js",
+    "main.js.map": "/Simple-Pokemon-Page/static/js/main.547d6774.chunk.js.map",
     "runtime-main.js": "/Simple-Pokemon-Page/static/js/runtime-main.8fd58994.js",
     "runtime-main.js.map": "/Simple-Pokemon-Page/static/js/runtime-main.8fd58994.js.map",
     "static/css/2.0a9ec390.chunk.css": "/Simple-Pokemon-Page/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.bfbc84f1.chunk.js": "/Simple-Pokemon-Page/static/js/2.bfbc84f1.chunk.js",
-    "static/js/2.bfbc84f1.chunk.js.map": "/Simple-Pokemon-Page/static/js/2.bfbc84f1.chunk.js.map",
+    "static/js/2.ca30d4d1.chunk.js": "/Simple-Pokemon-Page/static/js/2.ca30d4d1.chunk.js",
+    "static/js/2.ca30d4d1.chunk.js.map": "/Simple-Pokemon-Page/static/js/2.ca30d4d1.chunk.js.map",
     "index.html": "/Simple-Pokemon-Page/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/Simple-Pokemon-Page/static/css/2.0a9ec390.chunk.css.map",
     "static/css/main.19ae9854.chunk.css.map": "/Simple-Pokemon-Page/static/css/main.19ae9854.chunk.css.map",
-    "static/js/2.bfbc84f1.chunk.js.LICENSE.txt": "/Simple-Pokemon-Page/static/js/2.bfbc84f1.chunk.js.LICENSE.txt",
+    "static/js/2.ca30d4d1.chunk.js.LICENSE.txt": "/Simple-Pokemon-Page/static/js/2.ca30d4d1.chunk.js.LICENSE.txt",
     "static/media/logo.c12eb752.png": "/Simple-Pokemon-Page/static/media/logo.c12eb752.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8fd58994.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.bfbc84f1.chunk.js",
+    "static/js/2.ca30d4d1.chunk.js",
     "static/css/main.19ae9854.chunk.css",
-    "static/js/main.c3129861.chunk.js"
+    "static/js/main.547d6774.chunk.js"
   ]
 }
